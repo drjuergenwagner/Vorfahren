@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ahnenverwaltung</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Ahnenverwaltung</h1>
+    <p>Einfache Darstellung von Personen und Vorfahren</p>
+  </header>
+
+  <main>
+    <section class="toolbar">
+      <input id="search" type="search" placeholder="Person suchen …">
+      <select id="personSelect"></select>
+      <button id="showAncestors">Vorfahren anzeigen</button>
+    </section>
+
+    <section id="personCard" class="card"></section>
+    <section>
+      <h2>Vorfahren</h2>
+      <div id="tree" class="tree"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
